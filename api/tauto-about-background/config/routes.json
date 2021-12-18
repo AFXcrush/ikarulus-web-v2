@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tauto-about-background",
+      "handler": "tauto-about-background.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tauto-about-background",
+      "handler": "tauto-about-background.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tauto-about-background",
+      "handler": "tauto-about-background.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

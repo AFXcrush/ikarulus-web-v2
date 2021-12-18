@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tauto-feeds",
+      "handler": "tauto-feed.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tauto-feeds/count",
+      "handler": "tauto-feed.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tauto-feeds/:id",
+      "handler": "tauto-feed.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tauto-feeds",
+      "handler": "tauto-feed.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tauto-feeds/:id",
+      "handler": "tauto-feed.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tauto-feeds/:id",
+      "handler": "tauto-feed.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

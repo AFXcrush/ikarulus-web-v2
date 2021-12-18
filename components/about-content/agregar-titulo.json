@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_about_content_agregar_titulos",
+  "info": {
+    "name": "agregar titulo",
+    "icon": "book-open"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

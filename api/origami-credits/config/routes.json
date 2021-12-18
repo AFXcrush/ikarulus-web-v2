@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/origami-credits",
+      "handler": "origami-credits.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/origami-credits",
+      "handler": "origami-credits.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/origami-credits",
+      "handler": "origami-credits.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

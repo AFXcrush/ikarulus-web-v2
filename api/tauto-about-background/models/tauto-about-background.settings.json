@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "tauto_about_backgrounds",
+  "info": {
+    "name": "tauto about",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "background": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "contenido": {
+      "type": "dynamiczone",
+      "components": [
+        "about-content.agregar-imagen",
+        "about-content.agregar-texto",
+        "about-content.agregar-titulo"
+      ],
+      "required": true
+    }
+  }
+}

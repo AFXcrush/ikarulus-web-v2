@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/origami-about-background",
+      "handler": "origami-about-background.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/origami-about-background",
+      "handler": "origami-about-background.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/origami-about-background",
+      "handler": "origami-about-background.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

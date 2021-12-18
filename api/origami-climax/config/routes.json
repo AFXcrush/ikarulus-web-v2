@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/origami-climaxes",
+      "handler": "origami-climax.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/origami-climaxes/count",
+      "handler": "origami-climax.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/origami-climaxes/:id",
+      "handler": "origami-climax.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/origami-climaxes",
+      "handler": "origami-climax.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/origami-climaxes/:id",
+      "handler": "origami-climax.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/origami-climaxes/:id",
+      "handler": "origami-climax.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

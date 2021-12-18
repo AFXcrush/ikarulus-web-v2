@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ikarus-feeds",
+      "handler": "ikarus-feed.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ikarus-feeds/count",
+      "handler": "ikarus-feed.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ikarus-feeds/:id",
+      "handler": "ikarus-feed.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ikarus-feeds",
+      "handler": "ikarus-feed.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ikarus-feeds/:id",
+      "handler": "ikarus-feed.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ikarus-feeds/:id",
+      "handler": "ikarus-feed.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

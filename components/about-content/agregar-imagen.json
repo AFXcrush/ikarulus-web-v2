@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_about_content_agregar_imagens",
+  "info": {
+    "name": "agregar imagen",
+    "icon": "image"
+  },
+  "options": {},
+  "attributes": {
+    "imagen": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

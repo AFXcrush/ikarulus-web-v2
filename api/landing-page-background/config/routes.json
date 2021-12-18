@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/landing-page-background",
+      "handler": "landing-page-background.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/landing-page-background",
+      "handler": "landing-page-background.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/landing-page-background",
+      "handler": "landing-page-background.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

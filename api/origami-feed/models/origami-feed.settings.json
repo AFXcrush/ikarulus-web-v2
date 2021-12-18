@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "origami_feeds",
+  "info": {
+    "name": "origami feed"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "maxLength": 40,
+      "minLength": 2
+    },
+    "thumbnail": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "contenido": {
+      "type": "dynamiczone",
+      "components": [
+        "descripcion.agregar-imagen",
+        "descripcion.agregar-link-de-video",
+        "descripcion.agregar-link-externo",
+        "descripcion.agregar-texto"
+      ],
+      "required": true
+    }
+  }
+}

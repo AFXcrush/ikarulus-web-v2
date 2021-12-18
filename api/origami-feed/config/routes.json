@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/origami-feeds",
+      "handler": "origami-feed.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/origami-feeds/count",
+      "handler": "origami-feed.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/origami-feeds/:id",
+      "handler": "origami-feed.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/origami-feeds",
+      "handler": "origami-feed.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/origami-feeds/:id",
+      "handler": "origami-feed.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/origami-feeds/:id",
+      "handler": "origami-feed.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

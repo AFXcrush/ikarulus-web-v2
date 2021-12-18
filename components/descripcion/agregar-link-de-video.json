@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_descripcion_agregar_link_de_videos",
+  "info": {
+    "name": "agregar link de video",
+    "icon": "play-circle"
+  },
+  "options": {},
+  "attributes": {
+    "embed": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

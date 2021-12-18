@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ikarus-feed-background",
+      "handler": "ikarus-feed-background.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ikarus-feed-background",
+      "handler": "ikarus-feed-background.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ikarus-feed-background",
+      "handler": "ikarus-feed-background.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ikarus_feeds",
+  "info": {
+    "name": "ikarus feed",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "maxLength": 40,
+      "minLength": 2
+    },
+    "thumbnail": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "contenido": {
+      "type": "dynamiczone",
+      "components": [
+        "descripcion.agregar-imagen",
+        "descripcion.agregar-link-de-video",
+        "descripcion.agregar-texto",
+        "descripcion.agregar-link-externo"
+      ],
+      "required": true
+    }
+  }
+}
