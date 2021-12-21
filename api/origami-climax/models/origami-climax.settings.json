@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "origami_climaxes",
   "info": {
-    "name": "origami climax"
+    "name": "origami climax",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -28,14 +29,9 @@
       "required": true,
       "pluginOptions": {}
     },
-    "contenido": {
-      "type": "dynamiczone",
-      "components": [
-        "descripcion.agregar-imagen",
-        "descripcion.agregar-link-de-video",
-        "descripcion.agregar-link-externo",
-        "descripcion.agregar-texto"
-      ]
+    "contenido_interno": {
+      "type": "richtext",
+      "required": true
     }
   }
 }

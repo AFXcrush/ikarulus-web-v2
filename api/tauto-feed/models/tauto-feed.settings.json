@@ -30,12 +30,7 @@
     },
     "contenido": {
       "type": "dynamiczone",
-      "components": [
-        "descripcion.agregar-imagen",
-        "descripcion.agregar-link-de-video",
-        "descripcion.agregar-link-externo",
-        "descripcion.agregar-texto"
-      ],
+      "components": [],
       "required": true
     }
   }

@@ -29,14 +29,8 @@
       "required": true,
       "pluginOptions": {}
     },
-    "contenido": {
-      "type": "dynamiczone",
-      "components": [
-        "descripcion.agregar-imagen",
-        "descripcion.agregar-link-de-video",
-        "descripcion.agregar-texto",
-        "descripcion.agregar-link-externo"
-      ],
+    "contenido_interno": {
+      "type": "richtext",
       "required": true
     }
   }

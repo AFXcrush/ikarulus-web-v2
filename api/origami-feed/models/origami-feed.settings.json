@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "origami_feeds",
   "info": {
-    "name": "origami feed"
+    "name": "origami feed",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -28,14 +29,8 @@
       "required": true,
       "pluginOptions": {}
     },
-    "contenido": {
-      "type": "dynamiczone",
-      "components": [
-        "descripcion.agregar-imagen",
-        "descripcion.agregar-link-de-video",
-        "descripcion.agregar-link-externo",
-        "descripcion.agregar-texto"
-      ],
+    "contenido_interno": {
+      "type": "richtext",
       "required": true
     }
   }
