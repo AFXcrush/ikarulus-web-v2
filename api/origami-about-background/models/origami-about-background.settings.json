@@ -23,12 +23,7 @@
       "pluginOptions": {}
     },
     "contenido": {
-      "type": "dynamiczone",
-      "components": [
-        "about-content.agregar-imagen",
-        "about-content.agregar-texto",
-        "about-content.agregar-titulo"
-      ],
+      "type": "richtext",
       "required": true
     }
   }

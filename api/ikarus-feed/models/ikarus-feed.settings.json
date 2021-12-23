@@ -37,8 +37,6 @@
         "descripcion.agregar-texto",
         "descripcion.agregar-link-externo",
         "descripcion.agregar-texto-resaltado"
-      ],
-      "required": true
-    }
+      ]
   }
 }
