@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_descripcion_agregar_texto_resaltados",
+  "info": {
+    "name": "agregar texto resaltado",
+    "icon": "bold"
+  },
+  "options": {},
+  "attributes": {
+    "texto_resaltado": {
+      "type": "string",
+      "required": true,
+      "minLength": 1
+    }
+  }
+}
