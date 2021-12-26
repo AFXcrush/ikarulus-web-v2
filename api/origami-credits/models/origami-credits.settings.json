@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "origami_credits",
   "info": {
-    "name": "origami credits"
+    "name": "origami credits",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -29,6 +30,12 @@
         "about-content.agregar-titulo"
       ],
       "required": true
+    },
+    "redes": {
+      "type": "dynamiczone",
+      "components": [
+        "about-content.agregar-redes"
+      ]
     }
   }
 }

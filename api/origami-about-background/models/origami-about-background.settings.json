@@ -30,6 +30,13 @@
         "about-content.agregar-titulo"
       ],
       "required": true
+    },
+    "redes": {
+      "type": "dynamiczone",
+      "components": [
+        "about-content.agregar-redes"
+      ],
+      "required": false
     }
   }
 }

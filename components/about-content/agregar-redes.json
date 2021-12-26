@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_about_content_agregar_redes",
+  "info": {
+    "name": "agregar redes",
+    "icon": "heart"
+  },
+  "options": {},
+  "attributes": {
+    "red_activa": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "red_url": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "minLength": 4
+    }
+  }
+}
