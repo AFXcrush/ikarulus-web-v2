@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_descripcion_agregar_sketchfabs",
+  "info": {
+    "name": "agregar sketchfab",
+    "icon": "dice-d6"
+  },
+  "options": {},
+  "attributes": {
+    "sketchfab": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -36,7 +36,8 @@
         "descripcion.agregar-link-de-video",
         "descripcion.agregar-texto",
         "descripcion.agregar-link-externo",
-        "descripcion.agregar-texto-resaltado"
+        "descripcion.agregar-texto-resaltado",
+        "descripcion.agregar-sketchfab"
       ],
       "required": true
     }
