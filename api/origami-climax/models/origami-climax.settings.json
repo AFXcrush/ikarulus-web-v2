@@ -39,6 +39,22 @@
         "descripcion.agregar-texto-resaltado",
         "descripcion.agregar-sketchfab"
       ]
+    },
+    "background": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "descripcion": {
+      "type": "text",
+      "required": true,
+      "minLength": 4,
+      "maxLength": 200
     }
   }
 }
