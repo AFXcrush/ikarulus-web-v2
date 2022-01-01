@@ -29,17 +29,6 @@
       "required": true,
       "pluginOptions": {}
     },
-    "contenido": {
-      "type": "dynamiczone",
-      "components": [
-        "descripcion.agregar-imagen",
-        "descripcion.agregar-link-de-video",
-        "descripcion.agregar-link-externo",
-        "descripcion.agregar-texto",
-        "descripcion.agregar-texto-resaltado",
-        "descripcion.agregar-sketchfab"
-      ]
-    },
     "background": {
       "model": "file",
       "via": "related",
