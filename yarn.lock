@@ -10283,6 +10283,11 @@ strapi-plugin-users-permissions@3.6.8:
     strapi-utils "3.6.8"
     uuid "^3.1.0"
 
+strapi-plugin-vercel@0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-vercel/-/strapi-plugin-vercel-0.0.7.tgz#8acc18583766c8c0ee0ef501bc3e7f3b74a0f819"
+  integrity sha512-VKrdi2rAaNnT2GoTkOb4/xZksc3sYV6k3XC1bcFPmLDpsGZve92JuYM+6JT6vbk+kCfKC/6j9MOUrG+AblfldA==
+
 strapi-provider-email-sendmail@3.6.8:
   version "3.6.8"
   resolved "https://registry.yarnpkg.com/strapi-provider-email-sendmail/-/strapi-provider-email-sendmail-3.6.8.tgz#6b9f6db31dee6656e4f09fa20479bcb9b6abf87d"
