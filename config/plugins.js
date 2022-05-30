@@ -8,7 +8,7 @@ module.exports = ({ env }) => ({
     },
     actionOptions: {
       upload: {
-        folder: "ikarus-web",
+        folder: env("CLOUDINARY_FOLDER"),
       },
       delete: {},
     },
