@@ -14,7 +14,7 @@ module.exports = ({ env }) => ({
     },
   },
   graphql: {
-    endpoint: "/graphql",
+    endpoint: env("ENDPOINT"),
     shadowCRUD: true,
     playgroundAlways: true,
     depthLimit: 100,
